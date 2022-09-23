@@ -1,3 +1,17 @@
 # ninja log v5
-0	211	6856632242652650	CMakeFiles/untitled.dir/main.cpp.obj	dcf8b287be3cb810
-212	279	6856632243323180	untitled.exe	c43670afd5d50529
+2	207	6856645106935569	CMakeFiles/untitled.dir/main.cpp.obj	dcf8b287be3cb810
+202	253	6856642238680769	untitled.exe	becc576451270a29
+6	212	6856644774653196	CMakeFiles/untitled.dir/Tasks/First.cpp.obj	ff302884e7c94f3b
+2	53	6856645574074426	untitled.exe	c43670afd5d50529
+3	219	6856657882703699	CMakeFiles/untitled.dir/main.cpp.obj	dcf8b287be3cb810
+219	271	6856657883214101	untitled.exe	c43670afd5d50529
+2	215	6856658099104570	CMakeFiles/untitled.dir/main.cpp.obj	dcf8b287be3cb810
+215	266	6856658099604965	untitled.exe	c43670afd5d50529
+2	215	6856658490433568	CMakeFiles/untitled.dir/main.cpp.obj	dcf8b287be3cb810
+215	267	6856658490943974	untitled.exe	c43670afd5d50529
+2	233	6856660503635985	CMakeFiles/untitled.dir/main.cpp.obj	dcf8b287be3cb810
+233	345	6856660504736854	untitled.exe	c43670afd5d50529
+2	212	6856660679765058	CMakeFiles/untitled.dir/main.cpp.obj	dcf8b287be3cb810
+212	263	6856660680255447	untitled.exe	c43670afd5d50529
+2	211	6856661195282115	CMakeFiles/untitled.dir/main.cpp.obj	dcf8b287be3cb810
+212	264	6856661195792519	untitled.exe	c43670afd5d50529

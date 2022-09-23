@@ -1,6 +1,41 @@
 #include <iostream>
 #include <cstdlib>
+#include "Tasks/Tasks.cpp"
+using namespace std;
+int main(){
+    system("chcp 65001");
+    int nTask;
+    cout<<"Введите номер задачи."<<endl;
+    cin>>nTask;
+    switch (nTask) {
+        case 1:
+            First();
+            break;
+        case 2:
+            Second();
+            break;
+        case 3:
+            Third();
+            break;
+        case 4:
+            Fourth();
+            break;
+        case 5:
+            Fifth();
+            break;
+        case 6:
+            Sixth();
+            break;
+        case 7:
+            Seventh();
+            break;
+        case 8:
+            Eighth();
+            break;
+    }
 
+    return  0;
+}
 
 int primer(){
     system("chcp 65001");
@@ -20,17 +55,5 @@ int primer(){
     std::cout<<"Километры:"<<dKm<<std::endl;
     std::cout<<"Метры:"<<dM<<std::endl;
     system("pause>nul");
-    return 0;
-}
-int first(){
-
-}
-int main() {
-    system("chcp 65001");
-    int n=10, k=1;
-    while (k<=n){
-        std::cout<<k<<std::endl;
-        k++;
-    }
     return 0;
 }
