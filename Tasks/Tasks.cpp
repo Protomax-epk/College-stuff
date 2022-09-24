@@ -64,18 +64,48 @@ int Fourth() {
 
 //Перевод расстояния из км и м в футы и мили
 int Fifth() {
-    system("chcp 65001");
     string desc("Перевод расстояния из км и м в футы и мили");
     cout<<desc<<endl;
+    const int ftInMile=5280;
+    const int mInKm=1000;
+    const double kmInMile=1.609344;
+    int dMile,dFt,dKm,dM;
+    cout<<"Расстояние в километрах и метрах."<<std::endl;
+    cout<<"Км:";
+    cin>>dKm;
+    cout<<"М:";
+    cin>>dM;
+    double distKm = dKm + (double)dM/mInKm;
+    double distMile = distKm/kmInMile;
+    dMile=(int)distMile;
+    dFt=(int)((distMile-dMile)*ftInMile);
+    cout<<"Расстояние в Милях и Футах."<<endl;
+    cout<<"Мили:"<<dMile<<endl;
+    cout<<"Футы:"<<dFt<<endl;
+    system("pause>nul");
     return 0;
 }
 
 
 //Сажени и аршины в метры и см
 int Sixth() {
-    system("chcp 65001");
     string desc("Сажени и аршины в метры и см");
     cout<<desc<<endl;
+    const double MInSz=1.609344;
+    int dSz,dAr,dCm,dM;
+    cout<<"Расстояние в Саженях и Аршинах."<<endl;
+    cout<<"Сажени:";
+    cin >> dSz;
+    cout<<"Аршины:";
+    cin >> dAr;
+    double distSazen= dSz + (double)dAr / 3;
+    double distM= distSazen * MInSz;
+    dM=(int)distM;
+    dCm=(int)((distM-dM)*100);
+    cout<<"Расстояние в метрах и сантиметрах."<<endl;
+    cout<<"Километры:"<<dM<<endl;
+    cout<<"Метры:"<<dCm<<endl;
+    system("pause>nul");
     return 0;
 }
 
